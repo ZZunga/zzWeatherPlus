@@ -1,0 +1,55 @@
+[Title]
+zzWeatherPlus - Wind, Forecast, Sunrise/Sunset, Moon
+
+[Description]
+A data field that shows wind direction and speed relative to your riding direction, a 12-hour weather forecast, today's sunrise and sunset, and the moon's phase and brightness.
+Built with the TitilliumWeb font for better readability on the move.
+A rebuilt version of zzWeather that no longer stops when your location can't be read.
+
+- Wind and forecast need your phone paired over Bluetooth (Garmin Connect app).
+  Sunrise/sunset and moon are calculated on the device, so they work without a phone.
+
+[Wind]
+- Wind speed in m/s, km/h, mph or ft/s (set in the app settings).
+- Track up (your direction always points up) or north up with a heading arrow.
+- The gap in the outer ring is where the wind comes in. (Imagine the wind blowing in through the gap.)
+  Headwind is red, crosswind gray, tailwind blue.
+- Heading from GPS track or from the compass. (With GPS selected, the compass is used while stopped.)
+
+[Forecast]
+- Steps through the next 12 hours, one hour every 2 seconds.
+- The number is the forecast hour, shown with that hour's wind direction arrow and chance of rain (%).
+- Hours after sunset use night icons.
+
+[Sunrise / Sunset]
+- Today's sunrise and sunset. Times that have already passed are dimmed.
+- 12-hour, 24-hour or follow the device setting.
+
+[Moon]
+- Moon brightness (%) and moon age for night rides.
+- The moon is drawn from its actual phase (mirrored in the southern hemisphere).
+
+[Auto layout by field size]
+- Small field: the item you choose
+- Wide field: wind on the left + your item on the right
+- Large field: wind, forecast, sun and moon all at once
+- Or set "Always one item, large".
+
+[Touch]
+- On touchscreen models, tap the field to switch items.
+  (In a wide field only the right side changes: forecast, sunrise/sunset, moon.)
+- Can be turned off in settings.
+
+[Location]
+- Location permission is used to calculate sunrise and sunset.
+- The last known location is saved on the device when the app starts and while you ride, so it works even if you start indoors or before GPS is ready.
+- Location stays on your device and is never sent anywhere.
+
+[Supported devices]
+Edge 540 / 550 / 840 / 850 / 1040 / 1050 / 1060
+
+Change settings in the Garmin Connect IQ app or Garmin Express.
+
+[What's new]
+v1.0.1
+- First release

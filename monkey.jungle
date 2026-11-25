@@ -1,0 +1,5 @@
+project.manifest = manifest.xml
+
+# 소스: source/, 공통 리소스: resources/ (폰트·문자열·설정)
+# resources-kor/          한국어 문자열   (언어 한정자 폴더, 자동 적용)
+# resources-edge1040/ ... 기기별 런처 아이콘 (기기 한정자 폴더, 자동 적용)

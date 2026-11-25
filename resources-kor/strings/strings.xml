@@ -1,0 +1,36 @@
+<strings>
+
+    <string id="AppName">zz날씨+</string>
+    <string id="appVersion_title">버전 정보</string>
+
+    <string id="dataType_title">표시 항목</string>
+    <string id="windArrow_title">바람 방향 / 풍속</string>
+    <string id="forecastWeather_title">시간별 일기예보</string>
+    <string id="sunriseSunset_title">일출 / 일몰 시간</string>
+    <string id="moonShape_title">달 모양 / 밝기</string>
+
+    <string id="layoutMode_title">칸 배치</string>
+    <string id="layoutAuto">자동 (칸 크기에 따라 1/2/4개)</string>
+    <string id="layoutSingle">항상 하나만 크게</string>
+
+    <string id="windSpeedUnit_title">풍속 표시 단위</string>
+    <string id="unitKph">km/h</string>
+    <string id="unitMph">mph</string>
+    <string id="unitMps">m/s</string>
+    <string id="unitFps">ft/s</string>
+
+    <string id="northOrientation_title">진행방향을 위로 표시 (끄면 북쪽이 위)</string>
+    <string id="showGpsOrientation_title">체크시 GPS 이동 방향 (기본: 나침반 방향)</string>
+
+    <string id="timeFormat_title">일출/일몰 시간 표시</string>
+    <string id="timeDevice">기기 설정 따름</string>
+    <string id="time12">12시간제</string>
+    <string id="time24">24시간제</string>
+
+    <string id="touchScreen_title">탭하면 표시 항목 전환</string>
+
+    <string id="bgMode_title">배경색</string>
+    <string id="bgAuto">기기 화면색에 맞춤</string>
+    <string id="bgPlain">검정 / 흰색 그대로</string>
+    <string id="bgClear">투명 (칠하지 않음)</string>
+</strings>

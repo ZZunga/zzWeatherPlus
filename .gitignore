@@ -1,0 +1,17 @@
+# Connect IQ 빌드 산출물
+bin/
+gen/
+*.prg
+*.prg.debug.xml
+*.iq
+
+# 서명 키
+developer_key
+developer_key.der
+*.pem
+
+tools/out/
+
+# 옛 스토어 캡처 (screen1~5.png 가 현재 사용본)
+store/images/screen*_en.png
+store/images/screen*_ko.png

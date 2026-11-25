@@ -1,0 +1,36 @@
+<strings>
+
+    <string id="AppName">zzWeatherPlus</string>
+    <string id="appVersion_title">App Version</string>
+
+    <string id="dataType_title">Display item</string>
+    <string id="windArrow_title">Wind direction / speed</string>
+    <string id="forecastWeather_title">Hourly forecast</string>
+    <string id="sunriseSunset_title">Sunrise / Sunset</string>
+    <string id="moonShape_title">Moon phase / brightness</string>
+
+    <string id="layoutMode_title">Field layout</string>
+    <string id="layoutAuto">Auto (1/2/4 panels by field size)</string>
+    <string id="layoutSingle">Always one item, large</string>
+
+    <string id="windSpeedUnit_title">Wind speed unit</string>
+    <string id="unitKph">km/h</string>
+    <string id="unitMph">mph</string>
+    <string id="unitMps">m/s</string>
+    <string id="unitFps">ft/s</string>
+
+    <string id="northOrientation_title">Track up (off: north up)</string>
+    <string id="showGpsOrientation_title">On: GPS heading, Off: compass heading</string>
+
+    <string id="timeFormat_title">Sunrise/sunset time format</string>
+    <string id="timeDevice">Device setting</string>
+    <string id="time12">12-hour</string>
+    <string id="time24">24-hour</string>
+
+    <string id="touchScreen_title">Tap to switch item</string>
+
+    <string id="bgMode_title">Background</string>
+    <string id="bgAuto">Match device screen</string>
+    <string id="bgPlain">Plain black / white</string>
+    <string id="bgClear">Transparent (no fill)</string>
+</strings>

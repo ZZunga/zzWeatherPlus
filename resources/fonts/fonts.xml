@@ -1,0 +1,27 @@
+<fonts>
+    <!-- Titillium Web Bold: " %-./0123456789:adfhkmpst"  (tools/FntGen.java) -->
+    <font id="Tw16" filename="tw-16.fnt" antialias="true"/>
+    <font id="Tw20" filename="tw-20.fnt" antialias="true"/>
+    <font id="Tw24" filename="tw-24.fnt" antialias="true"/>
+    <font id="Tw30" filename="tw-30.fnt" antialias="true"/>
+    <font id="Tw38" filename="tw-38.fnt" antialias="true"/>
+    <font id="Tw48" filename="tw-48.fnt" antialias="true"/>
+    <font id="Tw60" filename="tw-60.fnt" antialias="true"/>
+    <font id="Tw76" filename="tw-76.fnt" antialias="true"/>
+    <font id="Tw96" filename="tw-96.fnt" antialias="true"/>
+    <font id="Tw120" filename="tw-120.fnt" antialias="true"/>
+    <!-- 다른 zz+ 앱 두번째 항목 크기 (숫자 높이 20/24/36/41) -->
+    <font id="TwS20" filename="tw-s20.fnt" antialias="true"/>
+    <font id="TwS24" filename="tw-s24.fnt" antialias="true"/>
+    <font id="TwS36" filename="tw-s36.fnt" antialias="true"/>
+    <font id="TwS41" filename="tw-s41.fnt" antialias="true"/>
+    <!-- Weather Icons (A-Z 리매핑, 대문자=낮 소문자=밤, G/g=일출/일몰) -->
+    <font id="Wx20" filename="wx-20.fnt" antialias="true"/>
+    <font id="Wx26" filename="wx-26.fnt" antialias="true"/>
+    <font id="Wx32" filename="wx-32.fnt" antialias="true"/>
+    <font id="Wx40" filename="wx-40.fnt" antialias="true"/>
+    <font id="Wx52" filename="wx-52.fnt" antialias="true"/>
+    <font id="Wx64" filename="wx-64.fnt" antialias="true"/>
+    <font id="Wx80" filename="wx-80.fnt" antialias="true"/>
+    <font id="Wx100" filename="wx-100.fnt" antialias="true"/>
+</fonts>

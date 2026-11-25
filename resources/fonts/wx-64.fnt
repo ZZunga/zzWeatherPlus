@@ -1,0 +1,23 @@
+info face="Weather Icons" size=-64 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=2 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=99 base=91 scaleW=986 scaleH=169 pages=1 packed=0 alphaChnl=0 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="wx-64_0.png"
+chars count=19
+char id=65  x=0    y=0    width=71   height=72   xoffset=0    yoffset=10   xadvance=75   page=0 chnl=15
+char id=66  x=72   y=0    width=98   height=83   xoffset=0    yoffset=0    xadvance=102  page=0 chnl=15
+char id=67  x=171  y=0    width=90   height=70   xoffset=0    yoffset=0    xadvance=94   page=0 chnl=15
+char id=69  x=262  y=0    width=90   height=89   xoffset=0    yoffset=0    xadvance=94   page=0 chnl=15
+char id=70  x=353  y=0    width=98   height=81   xoffset=0    yoffset=0    xadvance=102  page=0 chnl=15
+char id=72  x=452  y=0    width=90   height=91   xoffset=0    yoffset=0    xadvance=94   page=0 chnl=15
+char id=82  x=543  y=0    width=90   height=90   xoffset=0    yoffset=0    xadvance=94   page=0 chnl=15
+char id=83  x=634  y=0    width=90   height=89   xoffset=0    yoffset=0    xadvance=94   page=0 chnl=15
+char id=90  x=725  y=0    width=55   height=24   xoffset=0    yoffset=35   xadvance=59   page=0 chnl=15
+char id=97  x=781  y=0    width=48   height=49   xoffset=0    yoffset=21   xadvance=52   page=0 chnl=15
+char id=98  x=830  y=0    width=81   height=69   xoffset=0    yoffset=14   xadvance=85   page=0 chnl=15
+char id=99  x=912  y=0    width=73   height=55   xoffset=0    yoffset=15   xadvance=77   page=0 chnl=15
+char id=101 x=0    y=92   width=73   height=75   xoffset=0    yoffset=14   xadvance=77   page=0 chnl=15
+char id=102 x=74   y=92   width=83   height=66   xoffset=0    yoffset=14   xadvance=87   page=0 chnl=15
+char id=104 x=158  y=92   width=73   height=77   xoffset=0    yoffset=14   xadvance=77   page=0 chnl=15
+char id=114 x=232  y=92   width=73   height=76   xoffset=0    yoffset=14   xadvance=77   page=0 chnl=15
+char id=115 x=306  y=92   width=73   height=75   xoffset=0    yoffset=14   xadvance=77   page=0 chnl=15
+char id=71  x=380  y=92   width=82   height=63   xoffset=0    yoffset=7    xadvance=86   page=0 chnl=15
+char id=103 x=463  y=92   width=81   height=72   xoffset=0    yoffset=8    xadvance=85   page=0 chnl=15

@@ -1,0 +1,20 @@
+<properties>
+    <property id="appVersion" type="string">1.0.3</property>
+    <!-- 표시 항목: 0=바람 1=시간별 예보 2=일출/일몰 3=달 -->
+    <property id="dataType" type="number">0</property>
+    <!-- 칸 배치: 0=자동(칸 크기에 따라 1/2/4개) 1=항상 하나만 크게 -->
+    <property id="layoutMode" type="number">0</property>
+    <property id="northOrientation" type="boolean">true</property>
+    <property id="showGpsOrientation" type="boolean">true</property>
+    <!-- 풍속 단위: 0=km/h 1=mph 2=m/s 3=ft/s -->
+    <property id="windSpeedUnit" type="number">2</property>
+    <property id="touchScreen" type="boolean">true</property>
+    <!-- 시간 표시: 0=기기 설정 따름 1=12시간 2=24시간 -->
+    <property id="timeFormat" type="number">0</property>
+    <!-- 마지막 위치 (설정 화면에는 안 보임). 실제 저장은 Application.Storage 가 우선. -->
+    <property id="LastLocationLat" type="double">37.57842345603164</property>
+    <property id="LastLocationLng" type="double">126.97692630949079</property>
+
+    <!-- 배경색: 0=기기 화면색에 맞춤 1=검정/흰색 그대로(기본) 2=투명(안 칠함) -->
+    <property id="bgMode" type="number">1</property>
+</properties>

@@ -1,0 +1,60 @@
+<settings>
+
+    <setting propertyKey="@Properties.appVersion" title="@Strings.appVersion_title">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+
+    <setting propertyKey="@Properties.dataType" title="@Strings.dataType_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.windArrow_title</listEntry>
+            <listEntry value="1">@Strings.forecastWeather_title</listEntry>
+            <listEntry value="2">@Strings.sunriseSunset_title</listEntry>
+            <listEntry value="3">@Strings.moonShape_title</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.layoutMode" title="@Strings.layoutMode_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.layoutAuto</listEntry>
+            <listEntry value="1">@Strings.layoutSingle</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.northOrientation" title="@Strings.northOrientation_title">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.showGpsOrientation" title="@Strings.showGpsOrientation_title">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.windSpeedUnit" title="@Strings.windSpeedUnit_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.unitKph</listEntry>
+            <listEntry value="1">@Strings.unitMph</listEntry>
+            <listEntry value="2">@Strings.unitMps</listEntry>
+            <listEntry value="3">@Strings.unitFps</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.timeFormat" title="@Strings.timeFormat_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.timeDevice</listEntry>
+            <listEntry value="1">@Strings.time12</listEntry>
+            <listEntry value="2">@Strings.time24</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.touchScreen" title="@Strings.touchScreen_title">
+        <settingConfig type="boolean" />
+    </setting>
+
+
+    <setting propertyKey="@Properties.bgMode" title="@Strings.bgMode_title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.bgAuto</listEntry>
+            <listEntry value="1">@Strings.bgPlain</listEntry>
+            <listEntry value="2">@Strings.bgClear</listEntry>
+        </settingConfig>
+    </setting>
+</settings>
