@@ -51,5 +51,8 @@ Edge 540 / 550 / 840 / 850 / 1040 / 1050 / 1060
 Change settings in the Garmin Connect IQ app or Garmin Express.
 
 [What's new]
+v1.0.3
+- Background setting added (match device screen / plain black & white / transparent)
+  Addresses the data field background not matching built-in fields on Edge 1050/1060.
 v1.0.1
 - First release
