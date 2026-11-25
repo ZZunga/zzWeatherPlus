@@ -35,7 +35,6 @@ pwsh tools/export-iq.ps1     # 업로드용 bin/zzWeatherPlus.iq
 | 대표 이미지(아이콘) | `images/cover.png` (500x500, 둘레 10px 여백) |
 | 히어로 이미지 | `images/hero_ko.png`, `images/hero_en.png` (1440x720, 언어별) |
 | 화면 이미지 | `images/screen1~5_ko.png` / `_en.png` (500x500, 150KB 이하) |
-| 기부 링크 | https://paypal.me/zzungga (설명 안에 포함) |
 
 - 이미지는 `python store/make_assets.py` 로 다시 만들 수 있다 (레이아웃을 바꾸면 같이 재생성).
 
