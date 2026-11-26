@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">1.0.3</property>
+    <property id="appVersion" type="string">1.0.4</property>
     <!-- 표시 항목: 0=바람 1=시간별 예보 2=일출/일몰 3=달 -->
     <property id="dataType" type="number">0</property>
     <!-- 칸 배치: 0=자동(칸 크기에 따라 1/2/4개) 1=항상 하나만 크게 -->

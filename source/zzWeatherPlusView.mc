@@ -28,6 +28,8 @@ class zzWeatherPlusView extends WatchUi.DataField {
     hidden var mSunDay = -1;
 
     // 색 (onUpdate 마다 배경에 맞춰 갱신)
+    // 1050 / 1060 (화면폭 480 이상). 그릴 때마다 묻지 않는다
+    hidden var mBig = false;
     hidden var mBg = Graphics.COLOR_WHITE;
     hidden var mClearBg = Graphics.COLOR_WHITE;
     hidden var mFg = Graphics.COLOR_BLACK;
@@ -96,6 +98,7 @@ class zzWeatherPlusView extends WatchUi.DataField {
         mW = dc.getWidth();
         mH = dc.getHeight();
         mKind = Layout.slotKind(mW, mH, Config.read().layout);
+        mBig = (System.getDeviceSettings().screenWidth >= 480);
     }
 
     // ---- 데이터 (1Hz) -----------------------------------------------------
@@ -177,8 +180,7 @@ class zzWeatherPlusView extends WatchUi.DataField {
         // 배경색 (설정 bgMode) : 0 자동 / 1 검정·흰색 그대로 / 2 투명 (칠하지 않음)
         var cfg = Config.read();
         var bg = getBackgroundColor();
-        var big = (System.getDeviceSettings().screenWidth >= 480);   // 1050 / 1060
-        var soft = big && (cfg.bgMode != Config.BG_PLAIN);
+        var soft = mBig && (cfg.bgMode != Config.BG_PLAIN);   // mBig = 1050 / 1060
         var sysClear = (bg == Graphics.COLOR_TRANSPARENT);   // 기기가 "투명"이라고 알려준 경우
         mDark = (bg == Graphics.COLOR_BLACK || sysClear);
         if (mDark) {
