@@ -15,6 +15,6 @@
     <property id="LastLocationLat" type="double">37.57842345603164</property>
     <property id="LastLocationLng" type="double">126.97692630949079</property>
 
-    <!-- 배경색: 0=기기 화면색에 맞춤 1=검정/흰색 그대로(기본) 2=투명(안 칠함) -->
-    <property id="bgMode" type="number">1</property>
+    <!-- 배경색: 0=기기 화면색에 맞춤(기본) 1=검정/흰색 그대로 2=투명(안 칠함) -->
+    <property id="bgMode" type="number">0</property>
 </properties>

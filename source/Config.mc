@@ -44,7 +44,7 @@ module Config {
     }
 
     class Snapshot {
-        var bgMode     = BG_PLAIN; // 배경색
+        var bgMode     = BG_AUTO;  // 배경색
         var mode       = MODE_WIND;
         var trackUp    = true;    // 진행방향을 위로 (false = 북쪽 위)
         var gpsHeading = true;    // GPS 진행방향 사용 (false = 나침반)
@@ -100,7 +100,7 @@ module Config {
             case UNIT_FPS: s.unitLabel = "ft/s"; s.unitFactor = 3.28084; break;
             default:       s.unitLabel = "m/s";  s.unitFactor = 1.0;
         }
-        s.bgMode     = _clamp(_get("bgMode", BG_PLAIN), 0, 2);
+        s.bgMode     = _clamp(_get("bgMode", BG_AUTO), 0, 2);
         _cache = s;
         return s;
     }
